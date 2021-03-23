@@ -29,12 +29,11 @@ body
  margin:0 auto;
  padding:0px;
  z-index:2;
+ font-family: sega;
+ color: white;
+ font-size: 450%;
 }
-h1 
-{
- margin-top:250px;	
- color:white;
- font-size:45px;
- font-family:monospace;
- background-color: rgba(112, 112, 112, 0.74);
+@font-face {
+  font-family: sega;
+  src: url(sega.ttf);
 }
