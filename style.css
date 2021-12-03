@@ -5,6 +5,8 @@ body
  margin:0 auto;
  padding:0px;
  font-family:helvetica;
+ background-repeat: repeat;
+ background: url("img/organized_chaos_artwork.jpg");
 }
 #video_wrapper
 {
@@ -25,13 +27,26 @@ body
 #wrapper
 {
  position:relative;
- text-align:center;
  margin:0 auto;
  padding:0px;
  z-index:2;
  font-family: sega;
  color: white;
  font-size: 450%;
+ -webkit-text-stroke-width: 3px;
+ -webkit-text-stroke-color: black;
+}
+#wrap {
+  width:1400px;
+  margin:0 auto;
+}
+#left_col {
+  float:left;
+  width:700px;
+}
+#right_col {
+  float:right;
+  width:700px;
 }
 @font-face {
   font-family: sega;
